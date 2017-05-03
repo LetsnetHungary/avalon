@@ -1,0 +1,85 @@
+@import "n.css";
+body{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main,  div{
+  display: flex;
+  flex: 1 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+main{
+  height: calc(100vh - 50px);
+  width: 100vw;
+  flex-direction: column;
+}
+.main2, .main3{
+  display: none
+}
+.players{
+  flex-direction: row;
+}
+.players span{
+  margin: 20px 20px 20px 0px;
+}
+.characters{
+  width: 80vw;
+}
+.character{
+  flex: 0 0 auto;
+  height: 200px;
+  width: 120px;
+  margin: 0 20px 20px 20px;
+}
+.image{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+/*  box-sizing: border-box;*/
+  border-radius: 20px;
+  z-index: 5
+  ;cursor: pointer;
+  transition: border ease-in-out .15s;
+}
+.num{
+  flex: 0 0 auto;
+  flex-direction: column;
+}
+.tick{
+  height: 55px;
+  width: 55px;
+  position: absolute;
+  z-index: 3;
+}
+.submit span{
+  margin-left: 10px;
+  color: red;
+}
+#submit{
+  opacity: .6
+}
+#first{
+  animation: animation 1s;
+  -webkit-animation: animation 1s;
+  animation-play-state: paused;
+}
+@-webkit-keyframes animation {
+    from {margin-right: 0; }
+    to {margin-right: 180vw;}
+}
+#secound{
+  animation: animation2 1s;
+  -webkit-animation: animation2 1s;
+  animation-play-state: paused;
+}
+@-webkit-keyframes animation2 {
+    from {margin-left:200vw; margin-right: -0;}
+    to {margin-left: 0; margin-right: 0;}
+}

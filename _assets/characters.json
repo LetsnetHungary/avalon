@@ -1,0 +1,16 @@
+{
+  "goodcharacters" : {
+    "0" : "merlin",
+    "1" : "percival",
+    "2" : "gini",
+    "3" : "kay",
+    "4" : "lsoa"
+  },
+  "badcharacters" : {
+    "0" : "assassin",
+    "1" : "morgana",
+    "2" : "oberon",
+    "3" : "mordred",
+    "4" : "mom"
+  }
+}
