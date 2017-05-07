@@ -63,6 +63,7 @@ async function cardHandler() {
     card.style.backgroundSize ="100% 100%"
     card.style.border = "3px solid rgba(170, 125, 6, 1)"
     bool = true;
+    console.log("valami");
   }
   else if(personcounter == charactersOrder.length){
     title.innerHTML = "All characters dealt"

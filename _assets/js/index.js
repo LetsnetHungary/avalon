@@ -126,7 +126,7 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 async function next() {
-  if (isReady() || 1==1) {
+  if (isReady()) {
     var main1 = mains[maincounter]
     var main2 = mains[maincounter+1]
     main1.style.animationPlayState = "running";
@@ -141,9 +141,13 @@ async function next() {
     document.getElementById("goodcharactersn").innerHTML = "0"
     maincounter++;
     mains[maincounter].id = "first"
-    //mains[maincounter + 1].id = "secound"
+    console.log(maincounter);
+    if (maincounter < 2) {
+      mains[maincounter + 1].id = "secound"
+    }
     mains[maincounter - 1].id = "displayed"
     secound()
+    setTable()
   }
 }
 function back(){
@@ -171,14 +175,29 @@ function newgame(){
   startCharacters = setCharacters
   setCharacters = new Array();
   first(startCharacters)
+
   maincounter = 0;
-  mains[maincounter].id = "first"
-  mains[maincounter + 1].id = "secound"
+  mains[0].id = "first"
+  mains[1].id = "secound"
+  mains[2].id = "third"
 
   personcounter = 0;
-  charactersOrder = null;
-  var charactersOrder = new Array()
   console.log(charactersOrder);
-  bool = false
-  cardHandler()
+  cardHandler(false)
+  charactersOrder = null;
+  charactersOrder = new Array()
+
+  showTable()
+
+  voteStatus = 0;
+  rounds = 0;
+  nextPlayers = gameplay[players][rounds];
+  successfailStatus = 0;
+  successfailArray = new Array();
+  victorydefeat = new Array();
+
+  var missions =  document.getElementsByClassName("mission")
+  for (var i = 0; i < missions.length; i++) {
+    missions[i].innerHTML = '<p class="p"></p>'
+  }
 }

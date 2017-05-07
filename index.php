@@ -67,7 +67,7 @@
         ?>
 
         <div class="submit">
-          <button type="submit" name="button" id="submit">Submit</button>
+          <button class="button"  type="submit" name="button" id="submit">Submit</button>
           <span id="remaining">7 remaining</span>
         </div>
     </main>
@@ -81,18 +81,22 @@
         </div>
       </div>
       <div class="input">
-        <input type="submit" name="Next" value="Next" id="next">
+        <input class="button" type="submit" name="Next" value="Next" id="next">
       </div>
     </main>
     <main id="third" class="main main3">
       <div class="success_fail" id="successfail">
         <div class="how_sure_are_you">
+          <p id="areyousure"></p>
+          <div style = "">
+            <input type="button" name="" value="Yes" class="sure button">
+            <input type="button" name="" value="No" class="sure button">
+          </div>
+        </div>
+        <div class="successfail" data-success-fail-type = "">
 
         </div>
-        <div class="successfail">
-
-        </div>
-        <div class="successfail">
+        <div class="successfail" data-success-fail-type = "">
 
         </div>
       </div>
@@ -116,14 +120,14 @@
         </div>
         <div class="main_table">
           <div class="card_container">
-            <input type="submit" name="" value="Show result" id="cardresult">
+            <input class="button"  type="submit" name="" value="Show result" id="cardresult">
           </div>
           <div class="data_holder">
             <div class="info_holder" id="nextquest">
 
             </div>
             <div class="inputholder">
-              <input type="submit" name="" value="Go to quest" onclick = "showCards()" class="input2" id="quest">
+              <input class="button"  type="submit" name="" value="Go to quest" onclick = "showCards()" class="input2 button" id="quest">
             </div>
           </div>
         </div>
