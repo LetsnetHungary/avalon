@@ -69,7 +69,7 @@ async function cardHandler() {
     title.innerHTML = "All characters dealt"
     card.style.animationPlayState = "running";
     await sleep(500);
-    card.style.backgroundImage = "url('../_assets/img/tick_green.jpg')"
+    card.style.backgroundImage = "url('../linkafestmenyei/_assets/img/tick_green.jpg')"
     card.style.backgroundSize ="contain"
     card.style.border = 0;
     await sleep(500)

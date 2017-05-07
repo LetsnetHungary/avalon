@@ -5,11 +5,11 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1">
      <link rel="shortcut icon" href="favicon.ico" />
 		<!--<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">-->
-		<link rel="stylesheet" type = "text/css" href="../_asstes/css/n.css">
-    <link rel="stylesheet" type = "text/css" href="../_assets/css/first.css">
-    <link rel="stylesheet" type = "text/css" href="../_assets/css/secound.css">
-    <link rel="stylesheet" type = "text/css" href="../_assets/css/third.css">
-    <link rel="stylesheet" type = "text/css" href="../_assets/css/header.css">
+		<link rel="stylesheet" type = "text/css" href="../linkafestmenyei/_asstes/css/n.css">
+    <link rel="stylesheet" type = "text/css" href="../linkafestmenyei/_assets/css/first.css">
+    <link rel="stylesheet" type = "text/css" href="../linkafestmenyei/_assets/css/secound.css">
+    <link rel="stylesheet" type = "text/css" href="../linkafestmenyei/_assets/css/third.css">
+    <link rel="stylesheet" type = "text/css" href="../linkafestmenyei/_assets/css/header.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 
@@ -47,8 +47,8 @@
             for ($i=0; $i < $c_a; $i++) {
               ?>
               <div class="character">
-                <img src="../_assets/img/<?php echo $value[$i] ?>.JPG" id="<?php echo($value[$i]) ?>" class="image" alt="<?php echo($value[$i]) ?>">
-                <img src="../_assets/img/tick_green.jpg" class="tick" alt="">
+                <img src="../linkafestmenyei/_assets/img/<?php echo $value[$i] ?>.jpg" id="<?php echo($value[$i]) ?>" class="image" alt="<?php echo($value[$i]) ?>">
+                <img src="../linkafestmenyei/_assets/img/tick_green.jpg" class="tick" alt="">
               </div>
               <?php
             }?>
@@ -151,9 +151,9 @@
         </div>
       </div>
     </main>
-    <script type ="text/javascript" src="../_assets/js/index.js"></script>
-    <script type ="text/javascript" src="../_assets/js/secound.js"></script>
-    <script type ="text/javascript" src="../_assets/js/third.js"></script>
+    <script type ="text/javascript" src="../linkafestmenyei/_assets/js/index.js"></script>
+    <script type ="text/javascript" src="../linkafestmenyei/_assets/js/secound.js"></script>
+    <script type ="text/javascript" src="../linkafestmenyei/_assets/js/third.js"></script>
     <footer>
     </footer>
   </body>

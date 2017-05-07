@@ -94,9 +94,9 @@ var victorydefeat = new Array();
     var array = ["success", "fail"]
     array = orderChars(array)
     var cards = document.getElementsByClassName("successfail")
-    cards[0].style.backgroundImage = "url('../_assets/img/" + array[0] + ".JPG')"
+    cards[0].style.backgroundImage = "url('../linkafestmenyei/_assets/img/" + array[0] + ".jpg')"
     cards[0].setAttribute("data-success-fail-type", array[0])
-    cards[1].style.backgroundImage = "url('../_assets/img/" + array[1] + ".JPG')"
+    cards[1].style.backgroundImage = "url('../linkafestmenyei/_assets/img/" + array[1] + ".jpg')"
     cards[1].setAttribute("data-success-fail-type", array[1])
     console.log("startquest");
     console.log(array)
@@ -186,10 +186,10 @@ function setvictoryDefeat() {
 
       var missions =  document.getElementsByClassName("mission")
       if (victorydefeat[rounds -1]) {
-        missions[rounds-1].innerHTML = "<img src = '../_assets/img/s.jpg' class='missionimage'>"
+        missions[rounds-1].innerHTML = "<img src = '../linkafestmenyei/_assets/img/s.jpg' class='missionimage'>"
       }
       else {
-        missions[rounds-1].innerHTML = "<img src = '../_assets/img/f.jpg' class='missionimage'>"
+        missions[rounds-1].innerHTML = "<img src = '../linkafestmenyei/_assets/img/f.jpg' class='missionimage'>"
       }
 }
   async function showCards(){
@@ -204,10 +204,10 @@ function setvictoryDefeat() {
 
     for (var i = 0; i < successfailArray.length; i++) {
       if(successfailArray[i]){
-        content += "<img src = '../_assets/img/success.jpg' onclick = 'showTable()' class = 'cardimage' style='cursor: pointer; max-width: calc(90% / " + successfailArray.length + " - 20px)'> "
+        content += "<img src = '../linkafestmenyei/_assets/img/success.jpg' onclick = 'showTable()' class = 'cardimage' style='cursor: pointer; max-width: calc(90% / " + successfailArray.length + " - 20px)'> "
       }
       else{
-        content += "<img src = '../_assets/img/fail.jpg' class = 'cardimage' onclick = 'showTable()' style='cursor: pointer; max-width: calc(90% / " + successfailArray.length + " - 20px)'> "
+        content += "<img src = '../linkafestmenyei/_assets/img/fail.jpg' class = 'cardimage' onclick = 'showTable()' style='cursor: pointer; max-width: calc(90% / " + successfailArray.length + " - 20px)'> "
       }
       div.innerHTML = content
     }
