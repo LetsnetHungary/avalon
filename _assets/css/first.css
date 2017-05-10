@@ -58,6 +58,9 @@ main{
   position: absolute;
   z-index: 3;
 }
+.start_cards{
+  flex-direction: column;
+}
 .submit span{
   margin-left: 10px;
   color: red;
@@ -82,4 +85,20 @@ main{
 @-webkit-keyframes animation2 {
     from {margin-left:200vw; margin-right: -0;}
     to {margin-left: 0; margin-right: 0;}
+}
+@media screen and (max-width: 830px) {
+  .main1{
+    height: initial;
+  }
+  .start_cards{
+    flex-direction: row;
+    margin-top: 30px;
+  }
+  .characters{
+    flex-direction: column;
+    width: initial;
+  }
+  .character{
+    flex-direction: row;
+  }
 }
