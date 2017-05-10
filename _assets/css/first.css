@@ -102,3 +102,19 @@ main{
     flex-direction: row;
   }
 }
+@media screen and (max-device-width: 830px) {
+  .main1{
+    height: initial;
+  }
+  .start_cards{
+    flex-direction: row;
+    margin-top: 30px;
+  }
+  .characters{
+    flex-direction: column;
+    width: initial;
+  }
+  .character{
+    flex-direction: row;
+  }
+}
