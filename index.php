@@ -34,38 +34,40 @@
         <input type="number" name="quantity"
            min="5" max="12" step="1" value="9" id="numofplayers">
       </div>
-        <?php
-          $characters = file_get_contents('characters.json');
-          $character = json_decode($characters, true);
+        <div class="start_cards">
+          <?php
+            $characters = file_get_contents('characters.json');
+            $character = json_decode($characters, true);
 
-          foreach ($character as $key => $value) {
-            $c_a = count($value);
-            ?>
-            <div class="characters">
-
-            <?php
-            for ($i=0; $i < $c_a; $i++) {
+            foreach ($character as $key => $value) {
+              $c_a = count($value);
               ?>
-              <div class="character">
-                <img src="../linkafestmenyei/_assets/img/<?php echo $value[$i] ?>.jpg" id="<?php echo($value[$i]) ?>" class="image" alt="<?php echo($value[$i]) ?>">
-                <img src="../linkafestmenyei/_assets/img/tick_green.jpg" class="tick" alt="">
-              </div>
-              <?php
-            }?>
-            <div class="num">
-              <span id="<?php echo($key) ?>plus" style="font-weight: bold; color: rgb(20,200,20); font-size: 30px; cursor: pointer">
-                +
-              </span>
-              <p id="<?php echo($key) ?>n">0</p>
-              <span id="<?php echo($key) ?>minus" style="font-weight: bold; color: rgb(200,20,20); font-size: 30px; cursor: pointer">
-                -
-              </span>
-            </div>
-          </div>
-            <?php
-          }
-        ?>
+              <div class="characters">
 
+              <?php
+              for ($i=0; $i < $c_a; $i++) {
+                ?>
+                <div class="character">
+                  <img src="../linkafestmenyei/_assets/img/<?php echo $value[$i] ?>.jpg" id="<?php echo($value[$i]) ?>" class="image" alt="<?php echo($value[$i]) ?>">
+                  <img src="../linkafestmenyei/_assets/img/tick_green.jpg" class="tick" alt="">
+                </div>
+                <?php
+              }?>
+              <div class="num">
+                <span id="<?php echo($key) ?>plus" style="font-weight: bold; color: rgb(20,200,20); font-size: 30px; cursor: pointer">
+                  +
+                </span>
+                <p id="<?php echo($key) ?>n">0</p>
+                <span id="<?php echo($key) ?>minus" style="font-weight: bold; color: rgb(200,20,20); font-size: 30px; cursor: pointer">
+                  -
+                </span>
+              </div>
+            </div>
+              <?php
+            }
+          ?>
+
+        </div>
         <div class="submit">
           <button class="button"  type="submit" name="button" id="submit">Submit</button>
           <span id="remaining">7 remaining</span>
