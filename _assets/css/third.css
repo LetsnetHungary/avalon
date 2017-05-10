@@ -109,3 +109,37 @@ transition: opacity ease-in-out .2s
 #cardresult{
   transition: opacity ease-in-out .2s;
 }
+@media screen and (max-width: 630px) {
+  .mission{
+    width: 40px;
+    height:40px;
+    margin: 0 2px 0 2px;
+    font-size: 19px;
+  }
+  .info_holder{
+    font-size: 20px;
+  }
+  .vote_bar span{
+    display: none;
+  }
+  .votes{
+      width: 40px;
+      height:40px;
+      margin: 0 2px 0 2px;
+  }
+  .cardimage{
+    min-width: 60px;
+    margin: 0 5px 0 5px;
+  }
+  .card_container{
+    flex-wrap: wrap;
+  }
+  .successfail{
+    width: 140px;
+    height: 220px;
+    margin: 5px;
+  }
+  .how_sure_are_you{
+    max-width: 65vw;
+  }
+}
