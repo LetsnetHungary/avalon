@@ -204,10 +204,10 @@ function setvictoryDefeat() {
 
     for (var i = 0; i < successfailArray.length; i++) {
       if(successfailArray[i]){
-        content += "<img src = '../_assets/img/success.jpg' onclick = 'showTable()' class = 'cardimage' style='cursor: pointer; max-width: calc(90% / " + successfailArray.length + " - 20px)'> "
+        content += "<img src = '../_assets/img/success.jpg' onclick = 'showTable()' class = 'cardimage' style='cursor: pointer; max-height: 245px; max-width: calc(90% / " + successfailArray.length + " - 20px)'> "
       }
       else{
-        content += "<img src = '../_assets/img/fail.jpg' class = 'cardimage' onclick = 'showTable()' style='cursor: pointer; max-width: calc(90% / " + successfailArray.length + " - 20px)'> "
+        content += "<img src = '../_assets/img/fail.jpg' class = 'cardimage' onclick = 'showTable()' style='cursor: pointer; max-height: 245px; max-width: calc(90% / " + successfailArray.length + " - 20px)'> "
       }
       div.innerHTML = content
     }

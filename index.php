@@ -34,6 +34,7 @@
         <input type="number" name="quantity"
            min="5" max="12" step="1" value="9" id="numofplayers">
       </div>
+      <div class="start_cards">
         <?php
           $characters = file_get_contents('characters.json');
           $character = json_decode($characters, true);
@@ -65,6 +66,7 @@
             <?php
           }
         ?>
+      </div>
 
         <div class="submit">
           <button class="button"  type="submit" name="button" id="submit">Submit</button>
