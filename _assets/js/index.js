@@ -60,7 +60,6 @@ function save(data, bool){
   }
   isReady()
   setRemaining()
-  console.log(setCharacters)
 }
 function setRemaining(){
   var span = document.getElementById("remaining")
@@ -141,7 +140,6 @@ async function next() {
     document.getElementById("goodcharactersn").innerHTML = "0"
     maincounter++;
     mains[maincounter].id = "first"
-    console.log(maincounter);
     if (maincounter < 2) {
       mains[maincounter + 1].id = "secound"
     }
@@ -182,7 +180,6 @@ function newgame(){
   mains[2].id = "third"
 
   personcounter = 0;
-  console.log(charactersOrder);
   cardHandler(false)
   charactersOrder = null;
   charactersOrder = new Array()
