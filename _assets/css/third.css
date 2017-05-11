@@ -129,7 +129,7 @@ transition: opacity ease-in-out .2s
   }
   .cardimage{
     min-width: 60px;
-    margin: 0 5px 0 5px;
+    margin: 5px 5px 0 5px;
   }
   .card_container{
     flex-wrap: wrap;
@@ -140,6 +140,6 @@ transition: opacity ease-in-out .2s
     margin: 5px;
   }
   .how_sure_are_you{
-    max-width: 65vw;
+    max-width: 70vw;
   }
 }

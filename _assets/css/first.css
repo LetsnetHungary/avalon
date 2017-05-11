@@ -65,6 +65,16 @@ main{
 .start_cards{
   flex-direction: column;
 }
+#numofplayers{
+    height: 27px;
+    border-radius: 7px;
+    padding: 0 10px;
+    width: 50px;
+    outline: 0;
+    border: 1px solid rgba(0,0,0,.5);
+    box-shadow: inset 0 0 1px rgba(0,0,0,.5);
+
+}
 #submit{
   opacity: .6
 }

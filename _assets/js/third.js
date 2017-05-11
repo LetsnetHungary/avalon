@@ -38,7 +38,6 @@ var victorydefeat = new Array();
 
   function setTable(){
     nextPlayers = gameplay[players][rounds]
-    console.log(numOfPlayers.value)
     var missions =  document.getElementsByClassName("p")
     for (var i = 0; i < 5; i++) {
       missions[i].innerHTML = gameplay[players][i]
@@ -98,8 +97,6 @@ var victorydefeat = new Array();
     cards[0].setAttribute("data-success-fail-type", array[0])
     cards[1].style.backgroundImage = "url('../_assets/img/" + array[1] + ".JPG')"
     cards[1].setAttribute("data-success-fail-type", array[1])
-    console.log("startquest");
-    console.log(array)
   }
 
   async function howSureAreYou(bool) {
@@ -118,7 +115,6 @@ var victorydefeat = new Array();
       lastcard = false
     }
 
-    console.log("valami történik")
   }
 
   function successfail(bool) {
@@ -132,8 +128,6 @@ var victorydefeat = new Array();
       successfailStatus++
       startQuest()
     }
-    console.log(successfailArray);
-    console.log("successfailArray");
   }
 
   function victoryDefeat(int){
@@ -160,8 +154,6 @@ var victorydefeat = new Array();
     successfailStatus = 0;
 
       endQuest()
-    console.log("victorydefeat");
-    console.log(victorydefeat)
   }
   async  function endQuest(){
     document.getElementById('successfail').style.opacity = 0;
@@ -180,7 +172,6 @@ var victorydefeat = new Array();
 
     document.getElementById("cardresult").style.display = "flex";
     document.getElementById("cardresult").style.opacity = 1;
-    tableDataManager()
   }
 function setvictoryDefeat() {
 
@@ -196,7 +187,6 @@ function setvictoryDefeat() {
     var div = document.getElementsByClassName("card_container")[0]
     var content = "";
     successfailArray = orderChars(successfailArray)
-    console.log(successfailArray);
 
     document.getElementById("cardresult").style.opacity = 0;
     await sleep(200)
@@ -248,7 +238,9 @@ function setvictoryDefeat() {
     await sleep(200)
     div.style.opacity = 1;
     voteManager()
+    tableDataManager()
   }
+
   function endGame(bool) {
     var div = document.getElementsByClassName("card_container")[0]
     div.innerHTML = ""
