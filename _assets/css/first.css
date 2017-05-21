@@ -5,7 +5,6 @@ body{
   background-size: cover;
   background-attachment: fixed;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
@@ -19,6 +18,7 @@ main{
   height: calc(100vh - 50px);
   width: 100vw;
   flex-direction: column;
+  margin-top: 50px;
 }
 .main2, .main3{
   display: none

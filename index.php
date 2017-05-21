@@ -5,7 +5,7 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1">
      <link rel="shortcut icon" href="favicon.ico" />
 		<!--<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">-->
-		<link rel="stylesheet" type = "text/css" href="../_asstes/css/n.css">
+		<link rel="stylesheet" type = "text/css" href="../_assets/css/n.css">
     <link rel="stylesheet" type = "text/css" href="../_assets/css/first.css">
     <link rel="stylesheet" type = "text/css" href="../_assets/css/secound.css">
     <link rel="stylesheet" type = "text/css" href="../_assets/css/third.css">
@@ -17,17 +17,7 @@
     <title>Avalon</title>
   </head>
   <body id="body">
-    <header>
-      <div class="logoholder">
-        <a href="index.php" class="title">Avalon</a>
-      </div>
-      <div class="menu">
-        <nav>
-          <span id="back"><a href="#">Back</a></span>
-          <span id="newgame"><a href="#">New Game</a></span>
-        </nav>
-      </div>
-    </header>
+  <?php include 'header.php' ?>
     <main id="first" class="main main1">
       <div class="players">
         <span>Select number of players</span>
