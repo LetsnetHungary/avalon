@@ -17,17 +17,7 @@
     <title>Avalon</title>
   </head>
   <body id="body">
-    <header>
-      <div class="logoholder">
-        <a href="index.php" class="title">Avalon</a>
-      </div>
-      <div class="menu">
-        <nav>
-          <span id="back"><a href="#">Back</a></span>
-          <span id="newgame"><a href="#">New Game</a></span>
-        </nav>
-      </div>
-    </header>
+    <?php include 'header.php' ?>
     <main id="first" class="main main1">
       <div class="players">
         <span>Select number of players</span>
