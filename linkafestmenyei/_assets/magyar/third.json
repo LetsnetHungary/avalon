@@ -1,0 +1,14 @@
+{
+  "players": "játékos kell a küldetésbe",
+  "roundfour" : "2 FAIL kell a bukáshoz",
+  "questbutton" : "Tovább a küldetéshez",
+  "vote" : "Szavazások",
+  "sure" : "Biztos azt szeretnéd, hogy a küldetés",
+  "success" : "sikerüljön",
+  "fail" : "megbukjon",
+  "yes" : "Igen",
+  "no" : "Nem",
+  "result" : "Eredmény megtekintése",
+  "victory" : "GYŐZELEM! A gonoszok elbuktak. Assassin mutasson rá Merlinre!",
+  "defeat" : "VERESÉG! A gonoszok győztek."
+}

@@ -16,6 +16,10 @@ main,  div{
   align-items: center;
   box-sizing: border-box;
 }
+strong{
+  color: rgb(226,154,6);
+  font-weight: normal;
+}
 main{
   width: 100vw;
   align-items: flex-start;
@@ -59,7 +63,7 @@ main{
   align-items: flex-start;
 }
 .rules__part a:hover{
-  color: rgba(170, 125, 6, 1)!important
+  color: rgb(226,154,6)!important
 }
 .rules__part a{
   width: 100%;
@@ -69,7 +73,7 @@ main{
 .text__holder{
   background: rgba(250,250,250,.7);
   border-radius: 50px;
-  border: 2px solid rgb(170,125,6);
+  box-shadow: 0 0 18px rgba(0,0,0,.8);
   height: inherit;
   flex-direction: column;
   flex: 0 0 auto;
@@ -86,19 +90,35 @@ main{
   text-align: justify;
   width: 100%;
   margin: 5px;
+  max-width: 500px;
+  font-family: 'Roboto', sans-serif;
 }
 .paragraph h2{
   text-align: justify;
   width: 100%;
   font-size: 18px;
+  max-width: 500px;
 }
 .paragraph h1{
   font-size: 25px;
-  color: rgb(170,125,6)
+  color: rgb(226,154,6)
 }
 .small__part{
   margin-left: 25px;
   font-size: 17px;
   flex-direction: column;
   margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+@media screen and (max-width: 550px) {
+  .sidebar{
+    display: none;
+  }
+  .rules{
+    margin-left: 0;
+    width: 100vw;
+  }
+  .paragraph{
+    width: 80vw;
+  }
 }

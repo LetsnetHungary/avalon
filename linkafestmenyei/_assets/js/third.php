@@ -1,3 +1,5 @@
+<script>
+
 var gameplay = new Array()
 
   gameplay[5] = (new Array(2, 3, 2, 3, 3))
@@ -74,7 +76,12 @@ var victorydefeat = new Array();
 
   function tableDataManager() {
     var table = document.getElementById("nextquest")
-    table.innerHTML = nextPlayers + " players for next quest"
+    if (players > 6 && rounds == 3) {
+      table.innerHTML = nextPlayers + " <?php echo($third_data->players) ?>" + "</br> <?php echo $third_data->roundfour ?>"
+    }
+    else{
+      table.innerHTML = nextPlayers + " <?php echo($third_data->players) ?>"
+    }
   }
 
   async function startQuest() {
@@ -100,6 +107,7 @@ var victorydefeat = new Array();
   }
 
   async function howSureAreYou(bool) {
+    var dictionary = {"success":"<?php echo($third_data->success) ?>", "fail":"<?php echo($third_data->fail) ?>"}
     var div = document.getElementsByClassName("how_sure_are_you")[0]
     div.style.display = "flex"
     div.style.position = "absolute"
@@ -107,7 +115,7 @@ var victorydefeat = new Array();
     await sleep(200)
     div.style.opacity = "1";
 
-    document.getElementById("areyousure").innerHTML = "Are you sure you want to vote with " + bool + "?"
+    document.getElementById("areyousure").innerHTML = "<?php echo($third_data->sure) ?>  " + dictionary[bool] + "?"
     if (bool == "success") {
       lastcard = true
     }
@@ -168,7 +176,7 @@ var victorydefeat = new Array();
     var div = document.getElementsByClassName("card_container")[0]
     div.style.display = "flex"
     div.style.opacity = 1
-    div.innerHTML = '<input type="submit" name="" value="Show result" onclick = "showCards()" class="input2 button" id="cardresult">'
+    div.innerHTML = '<input type="submit" name="" value="<?php echo($third_data->result) ?>" onclick = "showCards()" class="input2 button" id="cardresult">'
 
     document.getElementById("cardresult").style.display = "flex";
     document.getElementById("cardresult").style.opacity = 1;
@@ -244,9 +252,10 @@ function setvictoryDefeat() {
     var div = document.getElementsByClassName("card_container")[0]
     div.innerHTML = ""
     if (bool) {
-      div.innerHTML = "VICTORY! Evils lost. Assassin points at Merlin"
+      div.innerHTML = "<p style = 'width: 60%; text-align: center' ><?php echo($third_data->victory) ?></p>"
     }
     else {
-      div.innerHTML = "DEFEAT! Evils won. Game over."
+      div.innerHTML = "<p style = 'width: 60%; text-align: center' ><?php echo($third_data->defeat) ?></p>"
     }
   }
+</script>

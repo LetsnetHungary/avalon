@@ -1,3 +1,5 @@
+<script>
+
 var characters = ["merlin", "morgana", "percival", "mom", "lsoa", "gini", "kay", "mordred", "oberon", "assassin"]
 
 document.getElementById(characters[0]).onclick = function(){save(characters[0])}
@@ -64,7 +66,7 @@ function save(data, bool){
 function setRemaining(){
   var span = document.getElementById("remaining")
   if(!isReady()){
-    span.innerHTML =" " + players - setCharacters.length + " remaining"
+    span.innerHTML =" " + players - setCharacters.length + " <?php echo($first_data->remaining) ?>"
   }
   else{
     span.innerHTML = ""
@@ -198,3 +200,4 @@ function newgame(){
     missions[i].innerHTML = '<p class="p"></p>'
   }
 }
+</script>

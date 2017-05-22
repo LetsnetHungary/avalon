@@ -1,6 +1,8 @@
+<script>
+
 document.getElementById("next").onclick = function(){cardHandler()}
 document.getElementById("card").onclick = function(){cardHandler()}
-
+document.getElementById("empty").onclick = smallbug
 var personcounter = 0;
 var charactersOrder = new Array();
 var bool = true
@@ -40,7 +42,6 @@ function orderChars(array){
 async function cardHandler() {
   var card = document.getElementById("card")
   var title = document.getElementById("text")
-
   if (bool) {
     imageurl = 'url("_assets/img/' + charactersOrder[personcounter] + '.jpg")'
     card.style.animationPlayState = "running";
@@ -52,7 +53,7 @@ async function cardHandler() {
     bool = false
   }
   else if(!bool && personcounter < charactersOrder.length ){
-    title.innerHTML = "Player " + (personcounter + 1)
+    title.innerHTML = "<?php echo($secound_data->players) ?>  " + (personcounter + 1)
     imageurl = 'url("_assets/img/card_back.jpeg")'
     card.style.animationPlayState = "running";
     await sleep(490);
@@ -60,11 +61,11 @@ async function cardHandler() {
     await sleep(490)
     card.style.animationPlayState = "paused"
     card.style.backgroundSize ="100% 100%"
-    card.style.border = "3px solid rgba(170, 125, 6, 1)"
+    card.style.border = "3px solid rgb(226,154,6)"
     bool = true;
   }
   else if(personcounter == charactersOrder.length){
-    title.innerHTML = "All characters dealt"
+    title.innerHTML = "<?php echo($secound_data->ready) ?>"
     card.style.animationPlayState = "running";
     await sleep(500);
     card.style.backgroundImage = "url('../linkafestmenyei/_assets/img/tick_green.jpg')"
@@ -81,3 +82,19 @@ async function cardHandler() {
     next()
   }
 }
+
+function smallbug() {
+  var title = document.getElementById("text").innerHTML
+  if (title ==  charactersOrder && personcounter != players && !bool) {
+    personcounter--
+    var char = charactersOrder[personcounter]
+    charactersOrder[personcounter] = charactersOrder[personcounter + 1]
+    charactersOrder[personcounter + 1] = char;
+    bool = true;
+    cardHandler();
+  }
+  else {
+    document.getElementById("text").innerHTML = charactersOrder;
+  }
+}
+</script>
