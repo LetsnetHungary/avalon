@@ -1,0 +1,15 @@
+{
+  "players": "players for next quest",
+  "roundfour" : "2 FAIL kell a bukáshoz",
+  "questbutton" : "Go to quest",
+  "vote" : "Vote Track",
+  "sure" : "Are you sure you want to vote with",
+  "success" : "success",
+  "fail" : "fail",
+  "yes" : "Yes",
+  "no" : "No",
+  "result" : "Show result",
+  "victory" : "VICTORY! Evils lost. Assassin points at Merlin.",
+  "defeat" : "DEFEAT! Evils won.",
+  "sleepingtown" : "Sleeping town"
+}

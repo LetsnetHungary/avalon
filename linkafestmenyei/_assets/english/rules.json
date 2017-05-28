@@ -1,0 +1,144 @@
+{
+  "preparation":
+  {
+    "sidebar" :"Preparation",
+    "0" : "<h1>Preparation</h1><p>Minimum amount of players: 5</p>",
+    "1" : "<p>Maximum amount of players: 12</p>",
+    "2" :   "<p>Take places in a circle, if possible.",
+    "3" : "Choose as many character cards as many players are given, then raffle the chosen cards ",
+    "4" : "and give everybody one (backside up). If you use this programme, after setting the characters,",
+    "5" : "click &#34;NEXT&#34; and check the character card one by one, by passing the used device around. ",
+    "6" : "Make sure you &#34;turned your card on its back&#34; before passing it on.</p> ",
+    "7" : "<p>Now you are divided into two groups: The Minions of Mordred (the evils) and The Loyal Servants ",
+    "8" : "of Arthur. Some cards give you special abilities, which will be described <a href='#characters' style='color: rgb(226,154,6)'>later</a>.</p>"
+  },
+  "endofgame" :
+  {
+    "sidebar" :"End of Game",
+    "0" : "<h1>End of Game</h1>",
+    "1" : "<p>In this game players will be chosen for quests. A quest can end with VICTORY or DEFEAT. ",
+    "2" : "Since there is a maximum of 5 quests, minions of Mordred instantly win as 3 quests failed (ended width ",
+    "3" : "defeat). If 3 quests have succeeded, minions of Mordred have a last opportunity to win the game. ",
+    "4" : "The character &#34;Assassin&#34; (after discussing it with the other minions) guesses which player got ",
+    "5" : "the character card &#34;Merlin&#34;. If guessing right, evil wins. </p>"
+  },
+
+  "game" :
+  {"sidebar" :"Game",
+    "game" :
+    {
+        "0" : "<h1>Game</h1><p>",
+        "1" : "The game consists of a maximum amount of 5 rounds. In these rounds players are chosen for quests ",
+        "2" : "and in the mean time they are discussing who are supposingly minions or servants of Arthur. One round ",
+        "3" : "lasts approximately 5 minutes, and the game makes no sense if one of the players doesn't take part in the ",
+        "4" : "discussion actively. The game starts with the &#34sleeping town&#34, which is described <a style='color: rgb(226,154,6)'' href=''#characters'>later</a> .</p>"
+      },
+    "select" :
+    {"sidebar" :"Select Players",
+        "0" : "<h2 id='players'>1.: Players are chosen for a quest</h2>",
+        "1" : "<p>The one player on the turn selects players for the quest. The amount of players that are supposed ",
+        "2" : "  to be selected, is shown on the table. This part of the game requires the longest discussion. ",
+        "3" : "  The player on the turn can obviously select themselves as well. The chosen players will decide ",
+        "4" : "whether the round will end with success or with defeat, so they must be selected carefully. </p>"
+    },
+    "vote" :
+      {"sidebar" :"General Vote",
+        "0"  :  "<h2 id='vote'>2.: General vote</h2>  <p>",
+        "1"  :  "After players are named, all players (including the selected ones) vote. This vote defines if the ",
+        "2"  :  "chosen players will really be the ones going for the quest. If the vote has a negative result, new ",
+        "3"  :  "players are to be selected by the next player on the round (repeat step one). After a countdown, at the same time, all players ",
+        "4"  :  "vote width their hands, holding their thumb fingers up or down. The vote has a positive result if ",
+        "5"  :  "MORE than than 50% of the players vote for yes (50% + 1 vote required). If in the same round ",
+        "6"  :  "more than 4 times the vote ended with negative result, the 5th choice isn't to be voted. You can count ",
+        "7"  :  "how many times has the vote failed on the table (Vote Track).",
+        "8"  :  "</p>"
+    },
+    "quest" :
+    {"sidebar" :"Quest",
+        "0"  :  "<h2 id='quest'>3.: Quest</h2><p>",
+        "1"  :  "The players chosen for the quest and having been voted get 2 cards, a success and a fail card. ",
+        "2"  :  "If you use this programme, by passing the used device, you can select your vote by clicking on the propriate ",
+        "3"  :  "card. Servants of Arthur MUST vote with success! Minions of Mordred, however, can decide, whether they ",
+        "4"  :  " want the mission to fail or to succeed. This part goes secretely, after each player chose a card, they ",
+        "5"  :  "will be shown in a random order.  </p>"
+    },
+    "result" : {"sidebar" :"Result",
+      "0"  :"<h2 id='result'>4.: Result</h2><p>",
+      "1"  :"This programme evaluates the result of the quest automatically. Only one 'fail' card is enough for ",
+      "2"  :"having the quest defeated. If there are more than 6 players (7 - 12), in the 4th round, two 'fail' cards ",
+      "3"  :"are required for the defeat.</p>"
+    }
+  },
+
+  "characters" : {
+    "sidebar" :"Characters and sleeping town",
+    "mom" :{
+      "0"  :  "<h1>Characters and sleeping town</h1>      <p>",
+      "1"  :  "Before the very first round comes the section 'sleeping town'. This way the characters with special abilities ",
+      "2"  :  "can get a bit more information. ",
+      "3"  :  "All players must close their eyes and put ",
+      "4"  :  "their hands in the middle. One player (keeping their eyes closed) leads this section, by announcing ",
+      "5"  :  "  which characters can open their eyes, and which are supposed to sign with their fingers.</p> <p>",
+      "6"  :  "The characters called Loyal Servant of Arthur, have no abilities at all ",
+      "7"  :  "</p>      <p>        The sleeping town starts with all minions of Mordred getting known eachother. In their section, ",
+      "8"  :  "all evil characters open their eyes and sign. The characters called: Minion of Mordred have no other ",
+      "9"  :  "abilities. <br>        Note: Oberon stays out of this section      </p>"
+    },
+    "merlin" :
+    {
+    "0":  "Merlin knows all the minions of Mordred. In his section, all minions of Mordred sign and Merlin openshis eyes.</br>",
+    "1"  : "<strong> Note: </strong>Merlin doesn't see Mordred and sees Sir Kay, who deceives him.</br>",
+    "2"  : "<strong> Strategy: </strong> He may lead the Servants of Arthur to the right path to win the game, but must do that silently because if Assassin figures out who he is, evil wins.</p>"
+    },
+   "assassin" :
+   {
+     "0" :  "Assassin has no abilities, but at the end of game, if servants of Arthur would win the game, she guesses who Merlin is. If she's right, evil wins.</p>"
+   },
+    "oberon" :
+      {
+      "0":"<p> Oberon is character who cannot be seen by other evil characters, and neither can he see them. ",
+      "1":"In the section of evil characters, all evils sign with their hands, except Oberon, and all evils ",
+      "2":"open their eyes, except Oberon.</p>"
+    },
+    "percival" :
+    {
+      "0":"<p>Percival sees Merlin and an evil character called Morgana. Percival doesn't know accurately which of them is Merlin, he shall figure it out during the game. ",
+      "1":"In his section Merlin and Morgana sign and Percival opens his eyes.<br><strong> Note: </strong> If Percival is chosen for a playing character, Morgana must be chosen as well! ",
+      "2":"<br><strong> Strategy: </strong> As soon as Percival figured out, who Merlin is, should repeat every word that Merlin said,  really loud, making Assassin believe he is Merlin.</p>"
+    },
+    "morgana" :
+    {
+      "0":"<p>Morgana is the character, that appears as Merlin to Percival. In Percival's section, Merlin and Morgana sign and Percival opens his eyes. ",
+      "1":"<br>Strategy: Morgana should pretend to be Merlin to deceive Percival.</p>"
+    },
+
+    "guinevere" :
+    {
+      "0":"<p> Guinevere sees all Loyal Servants of Arthur. In her section Loyal Servants of Arthur sign and Guinevere ",
+      "1":"opens her eyes. <br><strong> Strategy: </strong> tries to appear as Merlin to Assassin.</p>"
+    },
+
+      "mordred" :
+      {
+        "0":"<p> Mordred is the character Merlin can't see. In Merlin's section, all evils sign, except Mordred, and Merlin opens his eyes.</p>"
+      },
+      "sirkay" :
+      {
+        "0":"<p>  Sir Kay appears as evil to Merlin. In Merlin's section, all evils and Sir Kay sign and Merlin opens his eyes. </p>"
+      }
+  },
+  "suggestion" :
+    {
+      "sidebar" :"Suggestions",
+    "0":"<h1>Suggestions</h1>",
+    "1":"<p>  5 Players: 2 evils, 3 servants",
+    "2":"<br>  6 Players: 2 evils, 4 servants (Sir Kay suggested)",
+    "3":"<br>  7 Players: 3 evils, 4 servants",
+    "4":"<br>  8 Players: 3 evils, 5 servants (Sir Kay or Mordred suggested)",
+    "5":"<br>  9 Players: 4 evils, 5 servants (Guinevere or Oberon suggested)",
+    "6":"<br>  9 Players**: 3 evils 6 servants (Mordred and Sir Kay suggested)",
+    "7":"<br>  10 Players: 4 evils 6 servants",
+    "8":"<br>  11 Players: 4 evils 7 servants",
+    "9":"<br>  12 Players: 5 evils 7 servants </p>"
+  }
+}

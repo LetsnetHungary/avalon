@@ -1,0 +1,144 @@
+{
+  "preparation":
+  {
+    "sidebar" : "Előkészület",
+    "0" : "<h1>Előkészület</h1><p>Minimum játékosszám: 5</p>",
+    "1" : "<p>Maximum játékosszám: 12</p>",
+    "2" :   "<p>Üljetek le, lehetőleg egy körben. ",
+    "3" : "Válasszatok annyi karakterkártyát ahányan játszotok, majd keverjétek meg őket ",
+    "4" : "és osszátok ki lefordítva. Ha ezt a programot használjátok, a karakterek kiválasztása után ",
+    "5" : "kattintsatok a következő gombra és nézzetek meg a kártyákat egyesével, úgy, hogy körbeadogatjátok a készüléket ",
+    "6" : "Vigyázzatok, hogy a továbbadás előtt 'fordítsátok le' a kártyátokat</p> ",
+    "7" : "<p>Ezzel két csoportba lettetek osztva: A Minions of Mordred (gonoszok) és a Loyal Servants ",
+    "8" : "of Arthur (jók) csoportjába. Egyes kártyák különleges képességekkel ruháznak fel, melyekről <a href='#characters' style='color: rgb(226,154,6)'>később</a> lesz szó.</p>"
+  },
+  "endofgame" :
+  {"sidebar" : "Játék vége",
+    "0" : "<h1>Játék vége</h1>",
+    "1" : "<p>A játék során egyes játékosok küldetéseken vesznek részt. A küldetés Győzelemmel és Vereséggel zárulhatnak ",
+    "2" : "Mivel legfeljebb 5 küldetés van, a gonoszok azonnal nyernek, ha 3 küldetés elbukik. ",
+    "3" : "Ha 3 küldetés sikerrel zárul, a gonoszok még kapnak egy utolsó esélyt, hogy nyerjenek. ",
+    "4" : "Az Assassin nevű karakter megtippelheti (a többi gonosszal egyeztetve), ",
+    "5" : "ki kapta a 'Merlin' kártyát </p>"
+  },
+
+  "game" :
+  {
+    "sidebar" : "Játék",
+    "game" :
+    {
+        "0" : "<h1>A játék</h1><p>",
+        "1" : "A játék legfeljebb 5 körből áll. Ezekben a körökben egyes játékosok küldetésekre vannak választva ",
+        "2" : "és az idő nagy részében beszélgetnek kik lehetnek a jók és kik a gonoszok. Egy kör ",
+        "3" : "körülbelül 5 percig tart. A játék értelmét veszti, ha nem vesz minden játékos részt aktívan a beszélgetésekben. ",
+        "4" : "A játék az 'alszik a várossal' kezdődik melyről<a style='color: rgb(226,154,6)'' href=''#characters'>később</a> lesz szó .</p>"
+      },
+    "select" :
+    {"sidebar" : "Választás",
+        "0" : "<h2 id='players'>1.: Játékosok küldetésbe választása</h2>",
+        "1" : "<p>A körön lévő játékos rámutat játékosokra a küldetésbe. A ikválasztandó játékosok száma ",
+        "2" : "  fel van tüntetve a táblán. A játék ezen szakasza tart a legtovább. ",
+        "3" : "  A körön lévő játékos természetesen magát is kiválaszthatja. A kiválasztott játékosok döntik el ",
+        "4" : " sikeres lesz-e a küldetés, így fontos az óvatos választás. </p>"
+    },
+    "vote" :
+      {"sidebar" : "Szavazás",
+        "0"  :  "<h2 id='vote'>2.: Szavazás</h2>  <p>",
+        "1"  :  "A játékosok kiválasztása után mindenki (a kiválasztottakat beleértve) szavaz. A szavazás meghatározza, ",
+        "2"  :  "valóban a kiválasztottak mennek-e a küldetésre. Ha a küldetés le lett szavazva, ",
+        "3"  :  "a választó mellett ülő új küldetést állít össze, melyet megint szavazás követ. Visszaszámlálás után, minden játékos egyszerre ",
+        "4"  :  "szavaz a kezével (a hüvelykujja felfele vagy lefele tartásával). A küldetés meg van szavazva ha játékosok több mint 50%-a ",
+        "5"  :  "igennel szavaz. Ha ugyanabban körben 4 küldetést leszavaznak, az 5.-et nem kell leszavazni, automatikusan elmegy.",
+        "6"  :  "Az egy körben történő szavazások számát rögzíteni lehet a táblán (Szavazások). ",
+        "8"  :  "</p>"
+    },
+    "quest" :
+    {"sidebar" : "Küldetés",
+        "0"  :  "<h2 id='quest'>3.: Küldetés</h2><p>",
+        "1"  :  "A kiválasztott és megszavazott játékosok két kártyát kapnak, egy SUCCESS és egy FAIL kártyát. ",
+        "2"  :  "Ezen program használata esetén a megfelelő kártya, a használt eszköz körbeadogatásával egyesével választható ki. ",
+        "3"  :  "A jók csak SUCCESS-szel szavazhatnak. A gonoszak ellenben dönthetnek, hogy szeretnék-e, hogy a küldetés miattuk ",
+        "4"  :  " elbukjon, vagy sikerüljön. Ez a szakasz is titkosan történik, ha minden kiválasztott szavazaott, a kártyák ",
+        "5"  :  "megkeverve lesznek felmutatva.  </p>"
+    },
+    "result" : {
+      "sidebar" : "Eredmény",
+      "0"  :"<h2 id='result'>4.: Eredmény</h2><p>",
+      "1"  :"Ez a program automatikusan kiértékeli a küldetés eredményét. Egyetlen FAIL kártya el tudja buktatni a küldetést. ",
+      "2"  :"Ha 6-nál több (7-12) játékos van, a 4. körben 2 FAIL kártya kell ",
+      "3"  :"a küldetés megbuktatásához.</p>"
+    }
+  },
+
+  "characters" : {
+    "sidebar" : "Karakterek és alszik a város",
+    "mom" :{
+      "0"  :  "<h1>Karakterek és 'alszik a város'</h1>      <p>",
+      "1"  :  "Az első kör előtt következik az alszik a város szakasz. Ezzel egyes karakterek képességüknek megfelelően ",
+      "2"  :  "extra információhoz juthatnak. ",
+      "3"  :  "Minden játékosnak be kell csuknia a szemét ",
+      "4"  :  "és a kezüket középre kell rakniuk. Az egyik játékosnak (szemét csukva tartva) kell vezényelnie ",
+      "5"  :  "kik nyissák ki a szemüket és kik jelezzenek az ujjukkal.</p> <p>",
+      "6"  :  "A Loyal Servant of Arthur nevű játékosoknak semmi képességük nincs. ",
+      "7"  :  "</p>      <p>Az alszik a város azzal a kezdődik, hogy a gonoszok megismerik egymást. Ekkor minden gonosz kinyújtja az ujját ",
+      "8"  :  "és kinyitja a szemét. A Minion of Mordred nevű karaktereknek nincs más képességük. ",
+      "9"  :  " <br> Megjegyzés: Oberon ebből a szakaszból kimarad     </p>"
+    },
+    "merlin" :
+    {
+    "0":  "Merlin ismeri az összes gonoszt. Az ő szakaszában minden gonosz kinyújtja az ujját és Merlin megnézi őket.</br>",
+    "1"  : "<strong> Megjegyzés: </strong>Merlin nem látja a Mordredet, de látja Sir Kayt, aki megtéveszti őt. Merlint kötelező kiválasztani.</br>",
+    "2"  : "<strong> Stratégia: </strong> Az ő feladata, hogy a jókat irányítsa, de ezt óvatosan kell tennie, mert ha Assassin rájön ki ő, a gonoszok nyernek.</p>"
+    },
+   "assassin" :
+   {
+     "0" :  "Assassinnek nincsenek külön képességei, de a játék végén ő mutat rá, szerinte ki Merlin.</br>",
+     "1" :" Megjegyzés: Assassint kötelező kiválasztani.</p>"
+   },
+    "oberon" :
+      {
+      "0":"<p> Oberon az a kakter aki nem látja gonosz társait, és ők se látják Oberont. Merlin látja őt. ",
+      "1":"A gonoszok szakaszában minden gonosz kinyitja a szemét és jelez, kivéve Oberont. "
+    },
+    "percival" :
+    {
+      "0":"<p>Percival látja Merlint és egy gonosz karaktert, Morganát. Percival nem tudja pontosan melyikük Merlin, ezt a játék során kell kitalálnia. ",
+      "1":"Az ő szakaszában Morgana és Merlin kinyújtják az ujjukat, Percival kinyitja a szemét.<br><strong> Note: </strong> Ha Percivalt kiválasztják, Morganát is ki kell. ",
+      "2":"<br><strong> Stratégia: </strong> Ha Percival rájött ki Merlin, érdemes hangosan ismételnie Merlin szavait, Assassint megtévesztve.</p>"
+    },
+    "morgana" :
+    {
+      "0":"<p>Morgana az a karakter akit Percival lát Merlin mellett. Percival szakaszában Merlin és Morgana kinyújtják az ujjukat, Percival megnézi őket. ",
+      "1":"<br>Stratégia: Morganának Merlint kell játszania, hogy megtévessze Percivalt.</p>"
+    },
+
+    "guinevere" :
+    {
+      "0":"<p>Guinevere látja a Loyal Servantokat. Az ő szakaszában Guinevere kinyitja a szemeit, a Loyal Servantok kinyújtják ujjukat. ",
+      "1":"<br><strong> Stratégia: </strong> Érdemes megpróbálnia Merlint játszani</p>"
+    },
+
+      "mordred" :
+      {
+        "0":"<p> Mordred az a karakter akit Merlin nem lát. Merlin szakaszában minden gonosz kinyújtja ujját, kivéve Mordred és Merlin kinyitja a szemét.</p>"
+      },
+      "sirkay" :
+      {
+        "0":"<p> Sir Kay Merlin szemében gonosznak tűnik. Merlin szakaszában a gonoszok és Sir Kay jeleznek, Merlin megnézi őket.</p>"
+      }
+  },
+  "suggestion" :
+    {
+      "sidebar" : "Javaslatok",
+    "0":"<h1>Javaslatok</h1>",
+    "1":"<p>  5 Játékosok: 2 gonosz, 3 jó",
+    "2":"<br>  6 Játékosok: 2 gonosz, 4 jó (Sir Kay javasolt)",
+    "3":"<br>  7 Játékosok: 3 gonosz, 4 jó",
+    "4":"<br>  8 Játékosok: 3 gonosz, 5 jó (Sir Kay or Mordred javasolt)",
+    "5":"<br>  9 Játékosok: 4 gonosz, 5 jó (Guinevere or Oberon javasolt)",
+    "6":"<br>  9 Játékosok**: 3 gonosz 6 jó (Mordred and Sir Kay javasolt)",
+    "7":"<br>  10 Játékosok: 4 gonosz 6 jó",
+    "8":"<br>  11 Játékosok: 4 gonosz 7 jó",
+    "9":"<br>  12 Játékosok: 5 gonosz 7 jó </p>"
+  }
+}
