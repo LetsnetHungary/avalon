@@ -6,7 +6,7 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1">
      <link rel="shortcut icon" href="favicon.ico" />
 		<!--<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">-->
-		<link rel="stylesheet" type = "text/css" href="../linkafestmenyei/_asstes/css/n.css">
+		<link rel="stylesheet" type = "text/css" href="../linkafestmenyei/_assets/css/n.css">
     <link rel="stylesheet" type = "text/css" href="../linkafestmenyei/_assets/css/first.css">
     <link rel="stylesheet" type = "text/css" href="../linkafestmenyei/_assets/css/secound.css">
     <link rel="stylesheet" type = "text/css" href="../linkafestmenyei/_assets/css/third.css">
@@ -123,7 +123,7 @@
             </div>
             <div class="sleepingtown__holder">
               <audio   class="sleepingtown">
-                <source src="_asset/<?php echo($_SESSION["language"]) ?>/sounds//minions.mp3" type="audio/mpeg">
+                <source src="_assets/<?php echo($_SESSION["language"]) ?>/sounds/minions.mp3" type="audio/mpeg">
               </audio>
               <audio   class="sleepingtown">
                 <source src="_assets/<?php echo($_SESSION["language"]) ?>/sounds/minionsoberon.mp3" type="audio/mpeg">
@@ -178,7 +178,8 @@
     </main>
     <?php include('_assets/js/first.php');
      include('_assets/js/secound.php');
-      include('_assets/js/third.php') ?>
+      include('_assets/js/third.php');
+      ?>
     <footer>
     </footer>
   </body>

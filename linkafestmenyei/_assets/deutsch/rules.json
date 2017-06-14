@@ -1,0 +1,144 @@
+{
+  "preparation":
+  {
+    "sidebar" :"Vorbereitung",
+    "0" : "<h1>Vorbereitung</h1><p>Mindest Menge der Spieler: 5</p>",
+    "1" : "<p>Maximum Menge der Spieler: 12</p>",
+    "2" :   "<p>Nimmt ihr Platz in einem Kreiz wenn möglich. ",
+    "3" : "Wählt ihr so viel Charaktere, wie viel Spieler gibt's, dann habt ihr die Karten verlost sein ",
+    "4" : "und gebt ihr jemand eine (Rückseite oben). Wenn ihr dieses Programm benutzt, nach der Feststellung der Charakteren, ",
+    "5" : "klickt ihr &#34;Nächste&#34; und checkt ihr euer Charaktere einer nach dem anderen, während haben das benutzte Gerät weitergegeben. ",
+    "6" : "Stellt ihr sicher ihr haben &#34;ihre Karte an Rückseiten zurück gewendet&#34; vor ihr es weitergebt.</p> ",
+    "7" : "<p>Jetzt werdet ihr an zwei Gruppen geteilt: Die Minions Mordreds (die Böse) uns Die Loyal Servanten Arthurs",
+    "8" : ". Einige Karten geben ihr spezielle Fähigkeiten, die werden <a href='#characters' style='color: rgb(226,154,6)'>später</a>  beschrieben.</p>"
+  },
+  "endofgame" :
+  {
+    "sidebar" :"Ende des Spieles",
+    "0" : "<h1>Ende des Spieles</h1>",
+    "1" : "<p>In diesem Spiel werden Spieler für Missionen gewählt. Ein Mission beendet sich entweder mit Tripmph oder mit Niederlage. ",
+    "2" : "Seit es nur 5 Missionen gibt, die Böse gewinnen sofort, als 3 Missionen sind besiegt (enden mit ",
+    "3" : "Niederlage). Wenn 3 Missionen gelungen wäre, die Böse haben noch eine Möglichkeit zu gewinnen. ",
+    "4" : "Der Charakter heißt &#34;Assassin&#34; (nach sie es mit den anderen Bösen diskutiert hat) zeigt welches Spieler wäre ",
+    "5" : "die Charakter &#34;Merlin&#34;. Wenn sie Recht hätte, gelingen die Böse. </p>"
+  },
+
+  "game" :
+  {"sidebar" :"Spiel",
+    "game" :
+    {
+        "0" : "<h1>Spiel</h1><p>",
+        "1" : "Der Spiel besteht aus maximum 5 Runden. In diesen Runden werden Spieler für Missionen gewählt ",
+        "2" : "und dazwischen diskutieren sie, wer Wäre ein Minion von Mordred und wer ein Loyal Servant Arthurs. Ein Rund ",
+        "3" : "dauert etwa 5 Minuten, und das Spiel ergebt keinen Sinn, wenn einge Spieler beteiligen sich an der ",
+        "4" : "Diskussion nicht aktiv. Das Spiel beginnt mit der Sektion heißt &#34Das Schlafendes Dorf&#34, die wird <a style='color: rgb(226,154,6)'' href=''#characters'>später</a> beschrieben.</p>"
+      },
+    "select" :
+    {"sidebar" :"Wählen der Spieler",
+        "0" : "<h2 id='players'>1.: Spieler werden für Missionen gewählt</h2>",
+        "1" : "<p>Der Spieler am Rund wählt einige andere Spieler. Die Menge der Spieler, die ",
+        "2" : "  soll gewählt werden, wird an der 'Tafel' gezeigt. Dieser Teil des Spieles braucht am längsten Diskussion. ",
+        "3" : "  Der Spieler am Rund kann selbstverständlich (auch) sich selbst wählen. Die gewählte Spieler werden sich darüber entscheiden ",
+        "4" : "ob die Mission endet mit Triumph oder Niederlage, so sie müssen vorsichtig gewählt sein. </p>"
+    },
+    "vote" :
+      {"sidebar" :"Die Stimmung",
+        "0"  :  "<h2 id='vote'>2.: Die Stimmung</h2>  <p>",
+        "1"  :  "Nach spieler werden gewählt, jeder Spieler (die gewählten auch) stimmen. Diese Stimmung bestimmt ob ",
+        "2"  :  "die gewählten Spieler werden wirklich die jenigen sein, die am Mission gehen. Wenn die Wahl wird niederstimmt, neue ",
+        "3"  :  "Spieler müssen gewählt sein von dem nächsten Spieler am Rund (Wiederholung von esrsten Tritt). Nach einem Countdown, alle zusammen ",
+        "4"  :  "stimmen mit ihre Hände, während sie ihre Daumen hinüber oder hinunter halten. Die Wahl wird abgestimmt, wenn ",
+        "5"  :  "MEHR als halb der Spieler stimmt es ab. Wenn während die gleichen Rund ",
+        "6"  :  "werden Wahlen viermal niederstimmt, die fünfte braucht Stimmung nicht. Ihr könnt rechnen  ",
+        "7"  :  "wie viel werden die Wahlen niederstimmt (Stimmungsspur).",
+        "8"  :  "</p>"
+    },
+    "quest" :
+    {"sidebar" :"Der Mission",
+        "0"  :  "<h2 id='quest'>3.: Der Mission</h2><p>",
+        "1"  :  "De gewählte und gestimmte Spiler bekommen 2 Karte, eine SUCCESS und eine FAIL Karte. ",
+        "2"  :  "Wenn ihr dieses Programm benutzt, während ihr die benutzte Gerät weitergebt, könnt ihr die passende Karte wählen, durch ihr daran ",
+        "3"  :  "klickt. Loyal Servanten Arthurs MÜSSEN mit SUCCESS stimmen! Minions aber haben eine Möglichkeit sich zu entscheiden ob sie ",
+        "4"  :  " der Mission folgen oder fehlen wollen. Dieses Teil geht heimlich, nach die gewählten Spieler gestimmt haben, die Karten werden in eine random ",
+        "5"  :  "Reihenfolge gezeigt.  </p>"
+    },
+    "result" : {"sidebar" :"Ergebnis",
+      "0"  :"<h2 id='result'>4.: Ergebnis</h2><p>",
+      "1"  :"Dieses Programm rechnet das Ergebnis automatisch. Nur eine FAIL Karte wird genug um der Mission ",
+      "2"  :"zu besiegen. Wenn es mehr als 6 Spieler gibt (7-12), in dem vierten Rund ",
+      "3"  :"2 FAIL Karten sind nötig für Niederlage.</p>"
+    }
+  },
+
+  "characters" : {
+    "sidebar" :"Charaktere",
+    "mom" :{
+      "0"  :  "<h1>Charaktere und Schlafendes Dorf</h1>      <p>",
+      "1"  :  "Vor dem ersten Rund kommt die Sektion, das Schlafendes Dorf. Damit können Spieler (Charaktere) mit spezielle Fähigkeiten ",
+      "2"  :  "besondere Informationen bekommen. ",
+      "3"  :  "Alle Spieler müssen ihre Augen schließen und ihre Hände ",
+      "4"  :  "in die Mitte liegen. Ein Spieler (mit geschlossene Augen) führt dieses Rund, er verspricht ",
+      "5"  :  "  welche Charaktere können ihre Augen aufmachen, und welche müssen zeichnen.</p> <p>",
+      "6"  :  "Die Charaktere heißt Loyal Servant of Arthur haben keine Fähigkeiten. ",
+      "7"  :  "</p>      <p> Am Anfang des schlafenden Dorfs, kennenlernen die Böse Einander. In ihrer Sektion ",
+      "8"  :  "alle Böse macht ihre Augen aus und zeichnet. Die Charaktere heißt Minion of Mordred haben keine andere ",
+      "9"  :  "Fähigkeiten. <br>        Anmerkung: Oberon bleibt von disem Rund aus.     </p>"
+    },
+    "merlin" :
+    {
+    "0":  "Merlin kennt jeder Minion von Mordred. In seiner Sektion, alle Böse zeichnen und Merlin macht seine Augen aus.</br>",
+    "1"  : "<strong> Anmerkung: </strong>Merlin sieht Mordred nicht, und sieht Sir Kay, der täuscht ihn.</br>",
+    "2"  : "<strong> Strategie: </strong> Er sollte die Loyal Servanten führen, aber er muss es heimlich tun, weil wenn Assassin herausfindet wer er ist, Böse gewinnt</p>"
+    },
+   "assassin" :
+   {
+     "0" :  "Assassin hat keine Fähigkeiten, aber wenn die Böse verloren würde hat sie eine Möglichkeit Merlin zu tippen. Wenn sie Recht hat, Böse gewinnt.</p>"
+   },
+    "oberon" :
+      {
+      "0":"<p> Oberon ist der Charakter die sieht andere Bösen nicht, und weder sehen ihn die anderen Bösen ",
+      "1":"In die Sektion der Böse, zeichnet alle Böse aber Oberon, und alle Böse macht ihre Augen aus ",
+      "2":"aber Oberon.</p>"
+    },
+    "percival" :
+    {
+      "0":"<p>Percival sieht Merlin und einen Böse Charakter, Morgana. Percival ist nicht sicher wer Merlin und wer Morgana ist, er soll es während das Spiel herausfinden. ",
+      "1":"In seiner Sektion zeichnet Merlin und Morgana, während Percival macht seine Augen aus.<br><strong> Anmerkung: </strong> Wenn Percival für spielenden Charakter gewählt worden ist, so muss Morgana ausgewählt werden.",
+      "2":"<br><strong> Strategie: </strong> Wenn Percival herausfindet wer Merlin ist, soll er jedes Wort Merlin sagt ziemlich laut wiederholen um Assassin zu täuschen.</p>"
+    },
+    "morgana" :
+    {
+      "0":"<p>Morgana ist der Charakter, die für Percival, als Merlin scheint. In der Sektion Percivals, zeichnet Merlin und Morgana, während Percival macht seine Augen aus. ",
+      "1":"<br>Strategie: Morgana soll Merlin spielen um Percival zu täuschen.</p>"
+    },
+
+    "guinevere" :
+    {
+      "0":"<p> Guinevere sieht alle Loyal Servant von Arthur. In ihrer Sektion zeichnet alle Loyal Servant of Arthur un Guinevere ",
+      "1":"macht ihre Augen aus. <br><strong> Strategie: </strong> Sie kann probieren Merlin zu Spielen um Assassin zu täuschen.</p>"
+    },
+
+      "mordred" :
+      {
+        "0":"<p> Mordred ist der Charakter, der Merlin sieht nicht. In der Sektion von Merlin, alle Böse zeichnen, aber Mordred, und Merlin macht seine Augen aus.</p>"
+      },
+      "sirkay" :
+      {
+        "0":"<p>  Sir Kay sieht als Böse für Merlin aus. In der Sektion Merlins, alle Böse und Sir Kay zeichnet und Merlin macht seine Augen aus. </p>"
+      }
+  },
+  "suggestion" :
+    {
+      "sidebar" :"Ratschläge",
+    "0":"<h1>Ratschläge</h1>",
+    "1":"<p>  5 Spieler: 2 Böse, 3 Servanten",
+    "2":"<br>  6 Spieler: 2 Böse, 4 Servanten (Sir Kay empfehlt)",
+    "3":"<br>  7 Spieler: 3 Böse, 4 Servanten",
+    "4":"<br>  8 Spieler: 3 Böse, 5 Servanten (Sir Kay oder Mordred empfehlt)",
+    "5":"<br>  9 Spieler: 4 Böse, 5 Servanten (Guinevere oder Oberon empfehlt)",
+    "6":"<br>  9 Spieler**: 3 Böse 6 Servanten (Mordred und Sir Kay empfehlt)",
+    "7":"<br>  10 Spieler: 4 Böse 6 Servanten",
+    "8":"<br>  11 Spieler: 4 Böse 7 Servanten",
+    "9":"<br>  12 Spieler: 5 Böse 7 Servanten </p>"
+  }
+}

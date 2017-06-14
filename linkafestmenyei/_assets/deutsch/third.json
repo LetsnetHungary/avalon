@@ -1,0 +1,15 @@
+{
+  "players": "Spieler für nächsten Mission",
+  "roundfour" : "2 FAIL nötig",
+  "questbutton" : "Weiter zum Mission",
+  "vote" : "Stimmungsspur",
+  "sure" : "Willst du wirklich diese Mission zu",
+  "success" : "folgen",
+  "fail" : "fehlen",
+  "yes" : "Ja",
+  "no" : "Nein",
+  "result" : "Schau Ergebnisse",
+  "victory" : "Triumph! Böse haben verloren. Assassin zeigt Merlin",
+  "defeat" : "Niederlage! Böse hat gewonnen.",
+  "sleepingtown" : "Schlafendes Dorf"
+}

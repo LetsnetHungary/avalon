@@ -12,7 +12,7 @@
   </div>
   <div class="language">
     <a href="languageset.php"><div class="">
-      <img src="_assets/img/english.png" alt="" class="languageimage">
+      <img src="_assets/img/englishhunger.webp" alt="" class="languageimage">
     </div></a>
   </div>
 </header>

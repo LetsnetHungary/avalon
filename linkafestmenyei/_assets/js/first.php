@@ -57,7 +57,7 @@ async function sleepingtown(){
     return;
   }
   //MERLIN
-  if(ischarset("kay") && !ischarset("mordred")&& isaudioplayed){
+  if(ischarset("kay") && !ischarset("mordred") && isaudioplayed){
     await playAudio(2)
   }
   else if(ischarset("kay") && ischarset("mordred")&& isaudioplayed){
@@ -74,25 +74,30 @@ async function sleepingtown(){
     return
   }
   //Percival
-  if(ischarset("percival")&& isaudioplayed){
-    await playAudio(6)
-  }
-  else {
-    document.getElementById("sleepingtown").style.display = "block";
-    return
+  if(ischarset("percival") && ischarset("morgana")){
+    if(isaudioplayed){
+      await playAudio(6)
+    }
+    else {
+      document.getElementById("sleepingtown").style.display = "block";
+      return
+    }
   }
   //guinevere
-  if(ischarset("gini") && ischarset("lsoa") && isaudioplayed){
-    await playAudio(7)
-  }
-  else {
-    document.getElementById("sleepingtown").style.display = "block";
-    return
+  if(ischarset("gini") && ischarset("lsoa")){
+    if(isaudioplayed){
+      await playAudio(7)
+    }
+    else {
+      document.getElementById("sleepingtown").style.display = "block";
+      return
+    }
   }
   //end
   if (isaudioplayed) {
     await playAudio(8);
   }
+  document.getElementById("pauseaudio").style.display = "none";
 }
 async function playAudio(num){
   var sounds = document.getElementsByClassName('sleepingtown');

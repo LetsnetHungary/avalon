@@ -38,8 +38,10 @@ header{
   flex: 10 0 auto;
 }
 .languageimage{
-  max-height: 70%;
+  height: 38px;
   cursor: pointer;
+  width: 38px;
+  border-radius: 50%;
 }
 .language a{
   max-height: 100%;
